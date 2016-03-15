@@ -1,10 +1,23 @@
 body {
-  margin: 0;
-  padding: 50;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: "helvetica neue";
+  font-weight: 200;
 }
 
 header {
+  margin: auto;
+  width: 900px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 35px;
+}
 
+header p {
+  padding-bottom: 15px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 nav ul {
@@ -17,11 +30,32 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    padding: 0 50px 0 50px;
 }
 nav ul li a {
     text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #88D8C0;
  }
 
  li a:hover {
      color: #ccc;
  }
+
+article {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 100;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 35px;
+}
