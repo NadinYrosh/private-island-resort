@@ -16,8 +16,8 @@ header {
 header p {
   padding-bottom: 20px;
   font-size: 23px;
-  text-transform: uppercase;
   font-weight: 100;
+  letter-spacing: 2px;
 }
 
 header a {
@@ -71,6 +71,8 @@ h2 {
   text-align: center;
   padding-top: 15px;
   font-size: 35px;
+  font-family: zapfino;
+  font-weight: 100;
 }
 
 ul {
@@ -89,6 +91,12 @@ ul li {
 }
 
 article img {
-  width: 750px;
+  width: 850px;
   margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+article p {
+  line-height: 26px;
+  text-align: center;
 }
